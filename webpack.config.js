@@ -38,6 +38,7 @@ var banner = '\
 \n\n\n';
 
 module.exports = {
+  target: 'node',
   entry: {
     'sip': __dirname + '/src/index.js',
     'sip.min': __dirname + '/src/index.js'
